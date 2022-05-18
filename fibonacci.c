@@ -10,7 +10,7 @@ int main() {
   int nextTerm = t1 + t2;
 
   // get no. of terms from user
-  
+ 
   scanf("%d", &n);
 
   // print the first two terms t1 and t2
