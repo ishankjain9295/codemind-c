@@ -12,6 +12,7 @@ int main()
     {
         printf("%d
 ",a[i]+b[i]);
+        
     }
     return 0;
 }
