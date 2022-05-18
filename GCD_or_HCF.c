@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int n1, n2, i, gcd;
-
-    
-    scanf("%d %d", &n1, &n2);
-
-    for(i=1; i <= n1 && i <= n2; ++i)
+    int a,b,t,i=0;
+    scanf("%d%d",&a,&b);
+    for(t=2;t<=a&&t<=b;t++)
     {
-        // Checks if i is factor of both integers
-        if(n1%i==0 && n2%i==0)
-            gcd = i;
+        if(a%t==0&&b%t==0)
+        {i=t;}
     }
-
-    printf("%d",gcd);
-
+    if(i!=0)
+    printf("%d",i);
+    else
+    printf("1");
     return 0;
 }
